@@ -1,0 +1,7 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Mark Scripts", "Midnight")
+local Tab = Window:NewTab("Muscle Master")
+local Section = Tab:NewSection("Follow And like")
+Section:NewButton("ButtonText", "ButtonInfo", function()
+    print("Clicked")
+end)
